@@ -1,0 +1,24 @@
+@charset "UTF-8";
+@font-face {
+    font-family: Anto;
+    src: url(Antology.ttf) format(truetype);
+}
+
+body {
+    background-color:#DBCDC6 ;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h1{
+    color: #7B506F;
+}
+
+#principal {
+    text-align: center;
+    
+
+}
+h2 {
+    color: #DD99BB;
+}
+

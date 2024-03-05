@@ -1,0 +1,37 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap');
+
+h1 {
+    font-family: 'DM Serif Display', serif;
+    background-color: #ffffff;
+    text-align: center;
+    margin-bottom: 0px;
+    height: 31px;
+}
+h2 {
+    font-family: 'DM Serif Display', serif;
+    background-color: #ffffff;
+    text-align: center;
+    margin-top: 0px;
+    height: 33px;
+}
+p {
+    text-align: center;
+    text-justify: distribute;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.esquerda {
+    text-align: left;
+}
+
+p.esquerda {
+    height: 300px;
+    width: 300px;
+
+}
+div {
+    display: inline-block;
+
+}

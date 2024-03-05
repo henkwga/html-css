@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOVER</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        div > p {
+            display: none;
+        }
+        div:hover > p {
+            display: block;
+            background-color: rgb(99, 56, 255);
+            width: 200px;
+            height: 200px;
+            text-justify: auto;
+            text-align: center;
+            color: rgb(255, 116, 202);
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Exemplo de ultilização de pseudo-classes</h1>
+    <p>Passe o mouse no texto abaixo!</p>
+    <div>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Esse modi ab sapiente quos rerum dolore minima, labore, cum a sint id. Eum neque ullam reiciendis modi, minima ipsam dignissimos magni!
+        <p>Texto gerado pelo comando Lorem, não conte pra ninguem hehe</p></div>
+    <p>não aconteceu nada aqui!</p>
+</body>
+</html>

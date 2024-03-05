@@ -1,0 +1,24 @@
+@charset "UTF-8";
+@font-face {
+    font-family: Antology;
+    src: url(Antology.ttf) format(truetype);
+}
+
+h1{
+    font-family: "Antology";
+    font-size: 10em;
+    color: #DD99BB;
+    text-align: unset;
+}
+main {
+    background-color: #1F1A38;
+    width: auto;
+    margin: auto;
+    padding: auto;
+}
+p {
+    color: #DBCDC6;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    text
+}

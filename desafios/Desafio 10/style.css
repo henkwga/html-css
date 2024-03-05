@@ -1,0 +1,115 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: idroid;
+    src: url(fontes/idroid.otf) format(opentype);
+}
+body > header {
+    background-image:linear-gradient(360deg, #1A5C38, #39CB79);
+    height: 200px;
+    color: #ffffff;
+}
+body > header > h1 {
+    text-align: center;
+    padding-top: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 0px;
+}
+body > header > p {
+    text-align: center;
+    margin-bottom: 50px;
+    padding-top: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+nav > a {
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+    padding-left: 10px;
+    font-weight: bold;
+}
+nav > a:hover{
+    text-decoration: underline;
+}
+body {
+    text-indent: 2.5em;
+    background-color: #84E1AD;
+}
+main > h1 {
+    font-family: "idroid";
+    color: #4e7c63;
+    padding-top: 20px;
+    margin-top: 0px;
+}
+main > h2 {
+    font-family: "idroid";
+    background-image:linear-gradient(90deg,#C8ECD8, #ffffff );
+    color: #478061;
+}
+main {
+    height: 2290px;
+    width: 800px;
+    padding: 0px 20px 20px 20px;
+    margin: auto;
+    background-color: #ffffff;
+    border-radius: 0px 0px 5px 5px;
+}
+.links{
+    color:#7e9e8b;
+    text-decoration: none;
+}
+.links:hover {
+    text-decoration: underline;
+    color: #7e9e8b;
+}
+.txt-verde {
+    color: #7e9e8b
+}
+.negrito {
+    font-weight: bold;
+}
+footer > p {
+    text-align: center;
+    background-color: #1A5C38;
+    color: #ffffff;
+    margin: 10px 0px 0px 0px;
+    height: 20px;
+}
+body {
+    margin: 0px 0px 0px 0px;
+}
+.video {
+    background-color: #1A5C38;
+    height: 500px;
+    width: 800px;
+}
+main > section > iframe {
+    margin: auto;
+    height: 440px;
+    width: 720px;
+}
+#droid{
+    margin: auto;
+}
+.lista{
+    display: inline-block;
+    padding-right: 153px;
+}
+main > section > header {
+    background-color:  #2FA866;
+    border-radius: 5px 5px 0px 0px;
+    height: 40px;
+    color: white;
+}
+
+#inferior {
+    background-color: #C5EBD6;
+    border-radius: 5px;
+    height: 380px;
+}
+#inferior > header > h3 {
+}
+
+#inferior > p{
+    margin: 16px;
+}

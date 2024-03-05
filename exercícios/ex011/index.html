@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5</title>
+</head>
+<body>
+    <h1>Imagem dinâmica</h1>
+    <p>tente abrir esse site em diferentes sistemas para ver a diferença ou diminua o tamanho do navegador</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="ibagens/pequeno.png" type="image/png">
+        <source media="(max-width:1050px)" srcset="ibagens/medio.png" type="image/png">
+        <img src="ibagens/grande.png" alt="Imagem flexivel">
+    </picture>
+    <h1>Audio</h1>
+    <p>Vamos colocar audio nessa porraaaa</p>
+                    <!-- MP3 WAV OGG -->
+    <audio controls autoplay preload="metadata"> <!-- As configurações do audio coloca aqui, nao no source! -->
+        <source src="midias/forest-seilaoq.mp3" type="audio/mpeg">
+        <source src="midias/forest-seilaoq.mp3" type="audio/ogg">
+        <source src="midias/forest-seilaoq.mp3" type="audio/wav">
+        <p>Infelizmente, não consegumos reproduzir o áudio, tente em outro navegador ou baixe o áudio <a href="midias/forest-seilaoq.mp3"> clicando aqui!</a></p>
+    </audio>
+</body>
+</html>
