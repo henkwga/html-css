@@ -1,0 +1,82 @@
+* {
+    margin: 0px;
+    background-color: rgb(204, 204, 204);
+}
+
+.cont {
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.images {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 800px;
+    width: 935px;
+    flex-wrap: wrap;
+
+}
+
+.bg {
+    background-image: url('../imagens/wallpaper002.jpg');
+    height: 250px;
+    width: 250px;
+    margin: 5px 0px 5px 0px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-repeat: no-repeat;
+}
+
+.bg2 {
+    background-image: url('../imagens/wallpaper002.jpg');
+    height: 250px;
+    width: 400px;
+    margin: 5px 0px 5px 0px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-repeat: no-repeat;
+}
+
+#num1 {
+    background-position: left top;
+}
+#num2 {
+    background-position: left center;
+}
+#num3 {
+    background-position: left bottom;
+}
+#num4 {
+    background-position: center top;
+}
+#num5 {
+    background-position: center center;
+}
+#num6 {
+    background-position: center bottom;
+}
+#num7 {
+    background-position: right top;
+}
+#num8 {
+    background-position: right center;
+}
+#num9 {
+    background-position: right bottom;
+}
+
+.fullimg {
+    background-image: url('../imagens/wallpaper002.jpg');
+    width: 1280px;
+    height: 840px;
+    background-repeat: no-repeat;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
