@@ -1,0 +1,109 @@
+@UTF-8;
+@import url('https://fonts.googleapis.com/css2?family=Shrikhand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fanwood+Text:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fanwood+Text:ital@0;1&family=Numans&display=swap');
+
+:root {
+    --color01: #73877B;
+    --color02: #839788;
+    --color03: #BDBBB6;
+    --color04: #E5D1D0;
+    --color05: #F5E4D7;
+    --tranparent: rgba(0, 0, 0, 0.363);
+
+    --fontTitle: "Shrikhand", serif;
+    --fontText: "Fanwood Text", serif;
+    --fontAdicionals:"Numans", sans-serif;
+}
+
+* {
+    margin: 0px;
+    
+}
+
+.header {
+    background-color: var(--color01);
+    height: 150px;
+    text-align: center;
+    box-shadow: 5px 5px 5px black;
+}
+
+.cont-header {
+    background-color: var(--color01);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 140px;
+
+}
+
+.cont-header h1 {
+    background-color: var(--color01);
+    font-family: var(--fontTitle);
+    font-size: 65px;
+    color: var(--color04);
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.164);
+
+}
+
+.cont-header p {
+    background-color: var(--color01);
+    color: var(--color03);
+    font-family: var(--fontAdicionals);
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.content-white, .content-black {
+    font-family: var(--fontText);
+    font-size: 50px;
+    height: 1500px;
+    width: 700px;
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+}
+
+.content-white-top {
+    font-family: var(--fontText);
+    font-size: 50px;
+    height: 750px;
+    width: 700px;
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+    margin-bottom: 700px;
+}
+
+.transparent {
+    background-color: var(--tranparent);
+    color: var(--color05);
+}
+
+#bg-img-1 {
+    background: black url('images/20200214103756875756u.jpg') center center no-repeat fixed;
+    background-size: cover;
+}
+
+#bg-img-2 {
+    background: black url('images/grupo-Clube-da-Esquina.png') center center no-repeat fixed;
+    background-size: cover;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    height: 20px;
+    font-size: 15px;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
+footer a:hover {
+    font-weight: bold;
+    text-decoration: underline;
+}
